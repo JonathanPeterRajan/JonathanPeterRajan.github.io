@@ -1,33 +1,11 @@
-
 <!doctype html>
 <html lang='en'>
- 
- <style>
- .tag-count {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 24px;
-    height: 24px;
-    color: #000000;
-    font-size: 12px;
-    font-weight: 700;
-    background-color: aquamarine;
-    border-radius: 50%;
-}
-
-.a{
-  background-color: azure;
-  border border-radius: 50%;
-}
-
- </style>
 
 <head>
   <meta charset='utf-8'>
   <meta http-equiv='X-UA-Compatible' content='IE=edge'>
 
-  <title>compsci - The PhiloMath Club</title>
+  <title>Smart Bicycle Lock Project</title>
   <meta name='viewport' content='width=device-width, initial-scale=1.0'>
 
   
@@ -47,27 +25,36 @@
   <script>
     var site_url                            = 'http://localhost:2368',
         pagination_next_page_number         = '',
-        pagination_available_pages_number   = '1',
+        pagination_available_pages_number   = '',
         pagination_loading_text             = 'Loading',
         pagination_more_posts_text          = 'More Posts',
         clipboard_copied_text               = 'Link copied to clipboard';
   </script>
 
-  <link rel="canonical" href="CompSci.html" />
+  <link rel="canonical" href="index.html" />
     <meta name="referrer" content="no-referrer-when-downgrade" />
+    <link rel="amphtml" href="amp/index.html" />
     
     <meta property="og:site_name" content="The PhiloMath Club" />
-    <meta property="og:type" content="website" />
-    <meta property="og:title" content="compsci - The PhiloMath Club" />
-    <meta property="og:description" content="The Philomath Club is a community for students who love learning and increasing their knowledge of mathematics, computer science and engineering." />
-    <meta property="og:url" content="http://localhost:2368/tag/compsci/" />
+    <meta property="og:type" content="article" />
+    <meta property="og:title" content="Smart Bicycle Lock Project" />
+    <meta property="og:description" content="What does my project aim to achieve?My project is to create an alarmed bike lock. This is to tackle the growing problem of bike theft. Since most bikes are locked in public spaces, an alarmed bike lock would scare the thief away once triggered. I was motivated to do" />
+    <meta property="og:url" content="http://localhost:2368/blog/smart-bicycle-lock-project/" />
     <meta property="og:image" content="https://static.ghost.org/v4.0.0/images/publication-cover.jpg" />
+    <meta property="article:published_time" content="2021-08-14T14:17:27.000Z" />
+    <meta property="article:modified_time" content="2021-08-14T14:17:27.000Z" />
+    <meta property="article:tag" content="projects" />
+    
     <meta property="article:publisher" content="https://www.facebook.com/ghost" />
     <meta name="twitter:card" content="summary_large_image" />
-    <meta name="twitter:title" content="compsci - The PhiloMath Club" />
-    <meta name="twitter:description" content="The Philomath Club is a community for students who love learning and increasing their knowledge of mathematics, computer science and engineering." />
-    <meta name="twitter:url" content="http://localhost:2368/tag/compsci/" />
+    <meta name="twitter:title" content="Smart Bicycle Lock Project" />
+    <meta name="twitter:description" content="What does my project aim to achieve?My project is to create an alarmed bike lock. This is to tackle the growing problem of bike theft. Since most bikes are locked in public spaces, an alarmed bike lock would scare the thief away once triggered. I was motivated to do" />
+    <meta name="twitter:url" content="http://localhost:2368/blog/smart-bicycle-lock-project/" />
     <meta name="twitter:image" content="https://static.ghost.org/v4.0.0/images/publication-cover.jpg" />
+    <meta name="twitter:label1" content="Written by" />
+    <meta name="twitter:data1" content="Jonathan Peter Rajan" />
+    <meta name="twitter:label2" content="Filed under" />
+    <meta name="twitter:data2" content="projects" />
     <meta name="twitter:site" content="@ghost" />
     <meta property="og:image:width" content="7183" />
     <meta property="og:image:height" content="2885" />
@@ -75,7 +62,7 @@
     <script type="application/ld+json">
 {
     "@context": "https://schema.org",
-    "@type": "Series",
+    "@type": "Article",
     "publisher": {
         "@type": "Organization",
         "name": "The PhiloMath Club",
@@ -87,8 +74,18 @@
             "height": 60
         }
     },
-    "url": "http://localhost:2368/tag/compsci/",
-    "name": "compsci",
+    "author": {
+        "@type": "Person",
+        "name": "Jonathan Peter Rajan",
+        "url": "http://localhost:2368/author/jonathan/",
+        "sameAs": []
+    },
+    "headline": "Smart Bicycle Lock Project",
+    "url": "http://localhost:2368/blog/smart-bicycle-lock-project/",
+    "datePublished": "2021-08-14T14:17:27.000Z",
+    "dateModified": "2021-08-14T14:17:27.000Z",
+    "keywords": "projects",
+    "description": "What does my project aim to achieve?\nMy project is to create an alarmed bike lock. This is to tackle the growing\nproblem of bike theft. Since most bikes are locked in public spaces, an alarmed\nbike lock would scare the thief away once triggered. I was motivated to do this\nproject as there are not many alarmed bike locks on the market.\n\nHow does the alarm trigger?\nAs a lock is made of metal, the current can pass through the lock. I measured\nthe voltage between 2 points on the lock. If the lock is",
     "mainEntityOfPage": {
         "@type": "WebPage",
         "@id": "http://localhost:2368/"
@@ -97,7 +94,7 @@
     </script>
 
     <meta name="generator" content="Ghost 4.8" />
-    <link rel="alternate" type="application/rss+xml" title="The PhiloMath Club" href="CompSci.html" />
+    <link rel="alternate" type="application/rss+xml" title="The PhiloMath Club" href="index.html" />
     <script defer src="https://unpkg.com/@tryghost/portal@~1.6.0/umd/portal.min.js" data-ghost="http://localhost:2368/" crossorigin="anonymous"></script><style id="gh-members-styles">.gh-post-upgrade-cta-content,
 .gh-post-upgrade-cta {
     display: flex;
@@ -219,7 +216,7 @@
         
 </style><style>:root {--ghost-accent-color: #751aff;}</style>
 </head>
-<body class='tag-template tag-compsci'>
+<body class='post-template tag-projects'>
   <div class='c-site-container'>
     <header class='c-header'>
 
@@ -227,27 +224,27 @@
     <div class='o-grid__col'>
       <div class='c-header__inner'>
         <div class='c-logo'>
-            <a href='../index.html'>
-              <img class='c-logo__img' src='../content/images/2021/07/logo_tpmc.png' alt='The PhiloMath Club' width='' height=''>
+            <a href='../../index.html'>
+              <img class='c-logo__img' src='../../content/images/2021/07/logo_tpmc.png' alt='The PhiloMath Club' width='' height=''>
             </a>
         </div>
 
         <div class='c-nav-wrap'>
           <ul class='c-nav c-nav--left o-plain-list'>
               <li class='c-nav__item'>
-    <a href='../about/index.html' class='c-nav__link '>About</a>
+    <a href='../../about/index.html' class='c-nav__link '>About</a>
   </li>
   
   <li class='c-nav__item'>
-    <a href='../blog/index.html' class='c-nav__link '>Blog</a>
+    <a href='../index.html' class='c-nav__link '>Blog</a>
   </li>
   
   <li class='c-nav__item'>
-    <a href='../resources/index.html' class='c-nav__link '>Resources</a>
+    <a href='../../resources/index.html' class='c-nav__link '>Resources</a>
   </li>
   
   <li class='c-nav__item'>
-    <a href='../Contact/index.html' class='c-nav__link '>Contact</a>
+    <a href='../../Contact/index.html' class='c-nav__link '>Contact</a>
   </li>
   
 
@@ -256,7 +253,7 @@
 
           <ul class='c-nav c-nav--right  o-plain-list'>
             <li class='c-nav__item'>
-              <a href='CompSci.html#' class='c-nav__link toggle-search-button js-search-toggle' aria-label='Search'>
+              <a href='index.html#' class='c-nav__link toggle-search-button js-search-toggle' aria-label='Search'>
                 <div class='c-nav__icon-search'>
                   <svg viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <g id="Krabi" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
@@ -320,201 +317,157 @@
     <div data-icon='ei-close' data-size='s'></div>
   </div>
 </div>
-    
-    <div class='c-tags-list-container'>
-  <div class='o-grid'>
-    <div class='o-grid__col o-grid__col--full'>
-        <div class='c-tags-list-wrap' style="display: flex; align: center-items;">
-          <ul class='c-tags-list o-plain-list dragscroll'>
-              <li class='c-tags-list__item'>
-                  <a href="CompSci.html" style="display: flex; align-items:center; margin-right:24px; background-colour: azure;">
-                        <span class='c-tags-list__link' style="margin-right: 5px;">compsci</span>
-                        <span class="tag-count">5</span>
-                  </a>
-              </li>
-              <li class='c-tags-list__item'>
-                  <a href="engineering.html" style="display: flex; align-items:center; margin-right:24px; background-colour: azure;">
-                        <span class='c-tags-list__link' style="margin-right: 5px;">engineering</span>
-                        <span class="tag-count">2</span>
-                  </a>
-              </li>
-              <li class='c-tags-list__item'>
-                  <a href="projects/index.html" style="display: flex; align-items:center; margin-right:24px; background-colour: azure;">
-                        <span class='c-tags-list__link' style="margin-right: 5px;">projects</span>
-                        <span class="tag-count">2</span>
-                  </a>
-              </li>
-          </ul>
-        </div>
-    </div>
-  </div>
-</div>
-
-
-
-<script>
-  // Add current class the to current tag item if the URL matches the tag URL
-  window.addEventListener('DOMContentLoaded', (event) => {
-    var url_pathname = window.location.pathname;
-
-    document.querySelectorAll('.c-tags-list__link').forEach(function(index) {
-      var current_tag_item = index;
-      if (url_pathname === current_tag_item.getAttribute('href')) {
-        current_tag_item.className += ' ' + 'c-tags-list__link--current';
-      }
-    });
-  });
-</script>
-
+ 
 
     <main class='o-wrapper'>
       <div class='o-grid'>
         <div class='o-grid__col o-grid__col o-grid__col--center o-grid__col--9-10-m o-grid__col--2-3-l'>
           
-  <div class='c-archive'>
-    <h1 class='c-archive__title'>compsci</h1>
-  </div>
 
-<div class='js-grid'>
-    <div class='c-post-card js-post-card post tag-compsci featured'>
-    <div class='c-post-card__media'>
-      <div class='c-post-card__image-wrap'>
-        <img
-          alt='One-way functions'
-          class='c-post-card__image lazyload'
-          data-srcset='
-            /content/images/size/w346/2021/08/index.png 346w,
-            /content/images/size/w692/2021/08/index.png 692w,
-            /content/images/size/w1384/2021/08/index.png 1384w'
-          sizes='(min-width: 1260px) 692px, (min-width: 1040px) calc(34vw + 270px), (min-width: 640px) calc(90vw - 61px), calc(100vw - 32px)'
-          data-src='/content/images/size/w1384/2021/08/index.png'
-        >
-      </div>
-    </div>
+<article class='c-post tag-projects featured no-image'>
+  
+<header class='c-post-header'>
+  <h1 class='c-post-header__title'>Smart Bicycle Lock Project</h1>
 
-  <div class='c-post-card__content'>
-    <h2 class='c-post-card__title'>
-      <a href='../blog/one-way-functions/index.html' class='c-post-card__url'>One-way functions</a>
 
-      <div class='c-post-card__visibility c-post-card__visibility--public'>
-        <span class='paid'>Paid</span>
-        <span class='members'>Members</span>
-        <span class='public'>Public</span>
-      </div>
-    </h2>
-
-    <p class='c-post-card__excerpt'>Imagine this - you are a spy and you want to send a letter containing secret information back to your national intelligence in such a way that if it were intercepted by other governments, they would struggle to decode the message. How would you go about doing this? Most probably,</p>
-
-    <div class='c-post-card__meta'>
-        <a href='../author/ghost/index.html' class='c-post-card__author'>
-            <div class='c-post-card__author_media'>
-              <img class='c-post-card__author_image lazyload' data-src='https://static.ghost.org/v4.0.0/images/ghost-user.png' alt='Staff' width='32' height='32'>
-            </div>
-          <div class='c-post-card__author_info'>
-            <div class='c-post-card__author_name'>Staff</div>
-            <time class='c-post-card__date' datetime='2021-08-14' title='14 August 2021'>14 Aug 2021</time>
+    <div class='c-post-header__meta'>
+        <a href='../../author/jonathan/index.html' class='c-post-header__author'>
+          <div class='c-post-header__author_info'>
+            <div class='c-post-header__author_name'>Jonathan Peter Rajan</div>
+            <time class='c-post-header__date' datetime='2021-08-14' title='14 August 2021'>14 Aug 2021</time>
           </div>
         </a>
 
-      <div class='c-post-card__tag'>
-        <a href="CompSci.html">compsci</a>
-      </div>
-    </div>
+      <ul class='c-share o-plain-list'>
+  <li class='c-share__item'>
+    <a class='c-share__link'
+       title='Share on Twitter'
+       aria-label='Share on Twitter'
+       href="https://twitter.com/share?text=Smart%20Bicycle%20Lock%20Project&amp;url=http://localhost:2368/blog/smart-bicycle-lock-project/"
+       onclick="window.open(this.href, 'twitter-share', 'width=550, height=235'); return false;">
+      <span data-icon='ei-sc-twitter' data-size='s' class='c-share__icon'></span>
+    </a>
+  </li>
+
+  <li class='c-share__item'>
+    <a class='c-share__link'
+       title='Share on Facebook'
+       aria-label='Share on Facebook'
+       href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:2368/blog/smart-bicycle-lock-project/"
+       onclick="window.open(this.href, 'facebook-share', 'width=580, height=296'); return false;">
+      <span data-icon='ei-sc-facebook' data-size='s' class='c-share__icon'></span>
+    </a>
+  </li>
+
+  <li class='c-share__item'>
+    <a class='c-share__link'
+      title='Share on LinkedIn'
+      aria-label='Share on LinkedIn'
+      href="https://www.linkedin.com/shareArticle?mini=true&url=http://localhost:2368/blog/smart-bicycle-lock-project/&title=Smart%20Bicycle%20Lock%20Project"
+      onclick="window.open(this.href, 'linkedin-share', 'width=580, height=296'); return false;">
+      <span data-icon='ei-sc-linkedin' data-size='s' class='c-share__icon'></span>
+    </a>
+  </li>
+
+  <li class='c-share__item'>
+    <a class='c-share__link'
+       title='Share on Pinterest'
+       aria-label='Share on Pinterest'
+       href="http://pinterest.com/pin/create/button/?url=http://localhost:2368/blog/smart-bicycle-lock-project/&media=&description=Smart%20Bicycle%20Lock%20Project"
+       onclick="window.open(this.href, 'pinterest-share', 'width=580, height=296'); return false;">
+      <span data-icon='ei-sc-pinterest' data-size='s' class='c-share__icon'></span>
+    </a>
+  </li>
+
+  <li class='c-share__item'>
+    <a class='c-share__link'
+       title='Share via Email'
+       aria-label='Share via Email'
+       href="mailto:?subject=Smart%20Bicycle%20Lock%20Project&body=http://localhost:2368/blog/smart-bicycle-lock-project/">
+      <span data-icon='ei-envelope' data-size='s' class='c-share__icon'></span>
+    </a>
+  </li>
+
+  <li class='c-share__item'>
+    <a class='c-share__link js-share__link--clipboard'
+       title='Copy link'
+       aria-label='Copy link'
+       href='index.html#'
+       data-clipboard-text='http://localhost:2368/blog/smart-bicycle-lock-project/'
+       onclick='return false;'>
+      <span data-icon='ei-link' data-size='s' class='c-share__icon'></span>
+    </a>
+  </li>
+</ul>    </div>
+</header>
+  <section class='c-content'>
+    <h3 id="what-does-my-project-aim-to-achieve">What does my project aim to achieve?</h3><p>My project is to create an alarmed bike lock. This is to tackle the growing problem of bike theft. Since most bikes are locked in public spaces, an alarmed bike lock would scare the thief away once triggered. I was motivated to do this project as there are not many alarmed bike locks on the market.</p><h3 id="how-does-the-alarm-trigger">How does the alarm trigger?</h3><p>As a lock is made of metal, the current can pass through the lock. I measured the voltage between 2 points on the lock. If the lock is broken, the voltage between 2 points would read zero. I used voltage instead of resistance or current as it has much lower energy consumption.</p><p>To measure voltage, I connected yellow wires between a 5V power pin and an analog input/output pin on an Arduino, with the lock in between.</p><p>I also created a separate circuit, acting as a switch to represent the lock key. To do this, I inserted orange wires in a breadboard and measured voltage in the same way. If the wires are taken out, the voltage is zero, meaning that the key is out.</p><p>If the voltage of the lock and the key are both zero, the alarm (a buzzer and an LED) triggers. This represents the lock opening without a key.</p><p>If the lock opens with a key, no alarm triggers as there is voltage in the key circuit.</p><h3 id="implementation">Implementation</h3><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://media.discordapp.net/attachments/856154448106487830/876102253516316702/unknown.png" class="kg-image" alt loading="lazy"><figcaption>This picture shows a scenario in which the lock has not broken and the key is out. The alarm does not trigger as the lock has not been broken yet.</figcaption></figure><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://media.discordapp.net/attachments/856154448106487830/876102321011032064/unknown.png" class="kg-image" alt loading="lazy"><figcaption>This picture shows a scenario in which the lock has broken and the key is out. The alarm triggers as the lock has been opened without a key, implying it has been opened by a thief.</figcaption></figure><figure class="kg-card kg-image-card kg-card-hascaption"><img src="https://media.discordapp.net/attachments/856154448106487830/876102380515651614/unknown.png" class="kg-image" alt loading="lazy"><figcaption>This picture shows a scenario in which the lock has broken and the key is in. The alarm does not trigger as this is how the lock would open under normal use.</figcaption></figure><h3 id="what-were-some-challenges-i-encountered-whilst-working-on-this-project">What were some challenges I encountered whilst working on this project?</h3><p>Initially, I measured the resistance of the lock and found that the battery drained quickly. I realised that measuring resistance requires constant current in the circuit. However, measuring the voltage between 2 points doesn’t consume much energy.</p><p>Another issue was that when the lock was broken, there was still another path for current. To overcome this, the hinge of the lock could be insulated. This way, the lock only has one path for current and once this is broken, there is no voltage.</p><h3 id="what-lessons-of-an-engineering-nature-have-you-learnt-from-working-on-this-project">What lessons of an engineering nature have you learnt from working on this project?</h3><p>The project allowed me to learn engineering processes such as iterative design. I had to continuously test my product for problems and improve its design afterwards. This developed my problem-solving skills as I had to think of solutions to any issues. I also learnt about the hardware structure on the Arduino as well as how to program with it. Overall, this has taught me how to use computer hardware and software to solve a problem, which has given me a glimpse of a computer engineer's career.</p>
+  </section>
+
+      <section class='c-tags'>
+        <a href="../../tag/projects/index.html">projects</a>
+      </section>
+
+      <section class='c-card-author'>
+
+  <div class='c-card-author__content'>
+    <h3 class='c-card-author__name'>
+      <a href='../../author/jonathan/index.html'>Jonathan Peter Rajan</a>
+    </h3>
 
   </div>
-</div>    <div class='c-post-card js-post-card post tag-compsci'>
-    <div class='c-post-card__media'>
-      <div class='c-post-card__image-wrap'>
-        <img
-          alt='How does GPT-3 compare with the human brain'
-          class='c-post-card__image lazyload'
-          data-srcset='
-            /content/images/size/w346/2021/08/index.jpg 346w,
-            /content/images/size/w692/2021/08/index.jpg 692w,
-            /content/images/size/w1384/2021/08/index.jpg 1384w'
-          sizes='(min-width: 1260px) 692px, (min-width: 1040px) calc(34vw + 270px), (min-width: 640px) calc(90vw - 61px), calc(100vw - 32px)'
-          data-src='/content/images/size/w1384/2021/08/index.jpg'
-        >
-      </div>
-    </div>
-
-  <div class='c-post-card__content'>
-    <h2 class='c-post-card__title'>
-      <a href='../blog/gpt-3-vs-human-brain/index.html' class='c-post-card__url'>How does GPT-3 compare with the human brain</a>
-
-      <div class='c-post-card__visibility c-post-card__visibility--public'>
-        <span class='paid'>Paid</span>
-        <span class='members'>Members</span>
-        <span class='public'>Public</span>
-      </div>
-    </h2>
-
-    <p class='c-post-card__excerpt'>Quick Summary on GPT-3GPT-3 (Generative Pre-trained Transformer 3) is a language model made by OpenAI that uses deep learning to produce human-like text. It has been revolutionary since it has the capability of writing stories uncanny to those written by seasoned authors and can respond to any text appropriate to</p>
-
-    <div class='c-post-card__meta'>
-        <a href='../author/ghost/index.html' class='c-post-card__author'>
-            <div class='c-post-card__author_media'>
-              <img class='c-post-card__author_image lazyload' data-src='https://static.ghost.org/v4.0.0/images/ghost-user.png' alt='Staff' width='32' height='32'>
-            </div>
-          <div class='c-post-card__author_info'>
-            <div class='c-post-card__author_name'>Staff</div>
-            <time class='c-post-card__date' datetime='2021-08-14' title='14 August 2021'>14 Aug 2021</time>
-          </div>
-        </a>
-
-      <div class='c-post-card__tag'>
-        <a href="CompSci.html">compsci</a>
-      </div>
-    </div>
-
+</section>
+        <section class='c-subscribe c-subscribe--center'>
+          <h3 class='u-type-500 u-mb-8'>The PhiloMath Club Newsletter</h3>
+          <p class='u-type-500 u-mb-16'>Join the newsletter to receive the latest updates in your inbox.</p>
+          <form data-members-form='subscribe' class='c-subscribe-form c-subscribe-form--compact'>
+  <div class='form-group'>
+    <label for='subscribe-email-post' class='u-hidden-visually'>Your email address</label>
+    <input type='email' name='email' class='c-subscribe-form__input' id='subscribe-email-post' placeholder='Your email address' required data-members-email>
+    <button type='submit' value='Subscribe' class='c-btn c-btn--small c-btn--action c-subscribe-form__btn'>Subscribe</button>
   </div>
-</div>    <div class='c-post-card js-post-card post tag-compsci'>
-    <div class='c-post-card__media'>
-      <div class='c-post-card__image-wrap'>
-        <img
-          alt='Neuromorphic Computing Explained'
-          class='c-post-card__image lazyload'
-          data-srcset='
-            /content/images/size/w346/2021/08/0-CAOdx0su1r96h8fK.jpg 346w,
-            /content/images/size/w692/2021/08/0-CAOdx0su1r96h8fK.jpg 692w,
-            /content/images/size/w1384/2021/08/0-CAOdx0su1r96h8fK.jpg 1384w'
-          sizes='(min-width: 1260px) 692px, (min-width: 1040px) calc(34vw + 270px), (min-width: 640px) calc(90vw - 61px), calc(100vw - 32px)'
-          data-src='/content/images/size/w1384/2021/08/0-CAOdx0su1r96h8fK.jpg'
-        >
+
+  <div class='c-alert c-alert--success'>Please check your inbox and click the link to confirm your subscription.</div>
+  <div class='c-alert c-alert--invalid'>Please enter a valid email address!</div>
+  <div class='c-alert c-alert--error'>An error occurred, please try again later.</div>
+</form>        </section>
+
+    <section id='disqus_thread' class='u-bg-white u-border u-border-radius u-p-32'></section>
+<script>
+  var disqus_shortname = 'aspirethemes-demos'; // required: replace `aspirethemes-demos` with your Disqus shortname
+
+  // DON'T EDIT BELOW THIS LINE
+  var disqus_config = function () {
+    this.page.url ='http://localhost:2368/blog/smart-bicycle-lock-project/'
+    this.page.identifier = 'ghost-6117cf496b97442f2097f938';
+  };
+
+  function disqus() {
+    var d = document,
+        s = d.createElement('script');
+
+    s.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', + new Date());
+
+    (d.head || d.body).appendChild(s);
+  }
+
+  disqus();
+</script>
+  <hr>
+</article>
+
+
+<!--
+  Get related posts based on tags
+ -->
+
+    <div class='c-related'>
+      <div class='c-title-bar'>
+        <h3 class='c-title-bar__title'>You might also like</h3>
       </div>
-    </div>
-
-  <div class='c-post-card__content'>
-    <h2 class='c-post-card__title'>
-      <a href='../blog/neuromorphic-computing-explained/index.html' class='c-post-card__url'>Neuromorphic Computing Explained</a>
-
-      <div class='c-post-card__visibility c-post-card__visibility--public'>
-        <span class='paid'>Paid</span>
-        <span class='members'>Members</span>
-        <span class='public'>Public</span>
-      </div>
-    </h2>
-
-    <p class='c-post-card__excerpt'>IntroductionWith Moore’s Law coming to an end and the ever-increasing importance of Artificial Intelligence, we are meeting a threshold that cannot be passed without making dramatic changes to our computing architecture - hence the idea for neuromorphic computing was born. Its definition is much less complicated than it sounds:</p>
-
-    <div class='c-post-card__meta'>
-        <a href='../author/ghost/index.html' class='c-post-card__author'>
-            <div class='c-post-card__author_media'>
-              <img class='c-post-card__author_image lazyload' data-src='https://static.ghost.org/v4.0.0/images/ghost-user.png' alt='Staff' width='32' height='32'>
-            </div>
-          <div class='c-post-card__author_info'>
-            <div class='c-post-card__author_name'>Staff</div>
-            <time class='c-post-card__date' datetime='2021-08-14' title='14 August 2021'>14 Aug 2021</time>
-          </div>
-        </a>
-
-      <div class='c-post-card__tag'>
-        <a href="CompSci.html">compsci</a>
-      </div>
-    </div>
-
-  </div>
-</div>    <div class='c-post-card js-post-card post tag-projects tag-compsci featured'>
+    <div class='js-grid'>
+    <div class='c-post-card js-post-card post tag-projects tag-compsci featured'>
     <div class='c-post-card__media'>
       <div class='c-post-card__image-wrap'>
         <img
@@ -532,7 +485,7 @@
 
   <div class='c-post-card__content'>
     <h2 class='c-post-card__title'>
-      <a href='../blog/face-tracking-project/index.html' class='c-post-card__url'>Face Tracking Webcam With Raspberry Pi</a>
+      <a href='../face-tracking-project/index.html' class='c-post-card__url'>Face Tracking Webcam With Raspberry Pi</a>
 
       <div class='c-post-card__visibility c-post-card__visibility--public'>
         <span class='paid'>Paid</span>
@@ -544,7 +497,7 @@
     <p class='c-post-card__excerpt'>IntroductionMy project is to make a moving webcam that tracks the face so that the face is always kept in the image even when the person is moving. This would allow people to move around during presentations making them more interactive. It can even be used as a smart pet</p>
 
     <div class='c-post-card__meta'>
-        <a href='../author/jonathan/index.html' class='c-post-card__author'>
+        <a href='../../author/jonathan/index.html' class='c-post-card__author'>
           <div class='c-post-card__author_info'>
             <div class='c-post-card__author_name'>Jonathan Peter Rajan</div>
             <time class='c-post-card__date' datetime='2021-08-14' title='14 August 2021'>14 Aug 2021</time>
@@ -552,58 +505,12 @@
         </a>
 
       <div class='c-post-card__tag'>
-        <a href="projects/index.html">projects</a>
+        <a href="../../tag/projects/index.html">projects</a>
       </div>
     </div>
 
   </div>
-</div>    <div class='c-post-card js-post-card post tag-compsci'>
-    <div class='c-post-card__media'>
-      <div class='c-post-card__image-wrap'>
-        <img
-          alt='Distributed System Explained'
-          class='c-post-card__image lazyload'
-          data-srcset='
-            /content/images/size/w346/2021/08/1-tYxWuyksovxA1Thu8PggPQ.jpeg 346w,
-            /content/images/size/w692/2021/08/1-tYxWuyksovxA1Thu8PggPQ.jpeg 692w,
-            /content/images/size/w1384/2021/08/1-tYxWuyksovxA1Thu8PggPQ.jpeg 1384w'
-          sizes='(min-width: 1260px) 692px, (min-width: 1040px) calc(34vw + 270px), (min-width: 640px) calc(90vw - 61px), calc(100vw - 32px)'
-          data-src='/content/images/size/w1384/2021/08/1-tYxWuyksovxA1Thu8PggPQ.jpeg'
-        >
-      </div>
-    </div>
-
-  <div class='c-post-card__content'>
-    <h2 class='c-post-card__title'>
-      <a href='../blog/distributed-system-explained/index.html' class='c-post-card__url'>Distributed System Explained</a>
-
-      <div class='c-post-card__visibility c-post-card__visibility--public'>
-        <span class='paid'>Paid</span>
-        <span class='members'>Members</span>
-        <span class='public'>Public</span>
-      </div>
-    </h2>
-
-    <p class='c-post-card__excerpt'>What are distributed systems and why should we care?Have you ever wondered how Google handles billions of requests per day, the magic behind cloud computing, and what even made a decentralized currency possible? The technology behind these wonders is distributed systems. The computer scientist Andrew Tannenbaum defines it as</p>
-
-    <div class='c-post-card__meta'>
-        <a href='../author/ghost/index.html' class='c-post-card__author'>
-            <div class='c-post-card__author_media'>
-              <img class='c-post-card__author_image lazyload' data-src='https://static.ghost.org/v4.0.0/images/ghost-user.png' alt='Staff' width='32' height='32'>
-            </div>
-          <div class='c-post-card__author_info'>
-            <div class='c-post-card__author_name'>Staff</div>
-            <time class='c-post-card__date' datetime='2021-08-14' title='14 August 2021'>14 Aug 2021</time>
-          </div>
-        </a>
-
-      <div class='c-post-card__tag'>
-        <a href="CompSci.html">compsci</a>
-      </div>
-    </div>
-
-  </div>
-</div></div>
+</div></div>    </div>
 
         </div>
         <div class='o-grid__col o-grid__col o-grid__col--center o-grid__col--9-10-m o-grid__col--1-3-l'>
@@ -642,19 +549,19 @@
       </li>
 
     <li class='c-social-icons__item'>
-      <a href='CompSci.html#' aria-label='Instagram' target='_blank' rel='noopener'>
+      <a href='index.html#' aria-label='Instagram' target='_blank' rel='noopener'>
         <span class='c-social-icons__icon' data-icon='ei-sc-instagram' data-size='s'></span>
       </a>
     </li>
 
     <li class='c-social-icons__item'>
-      <a href='CompSci.html#' aria-label='Pinterest' target='_blank' rel='noopener'>
+      <a href='index.html#' aria-label='Pinterest' target='_blank' rel='noopener'>
         <span class='c-social-icons__icon' data-icon='ei-sc-pinterest' data-size='s'></span>
       </a>
     </li>
 
     <li class='c-social-icons__item'>
-      <a href='CompSci.html#' aria-label='YouTube' target='_blank' rel='noopener'>
+      <a href='index.html#' aria-label='YouTube' target='_blank' rel='noopener'>
         <span class='c-social-icons__icon' data-icon='ei-sc-youtube' data-size='s'></span>
       </a>
     </li>
@@ -683,15 +590,15 @@
         <p class='c-footer__headline'>Navigation</p>
         <ul class='c-footer-list o-plain-list'>
             <li class='c-nav__item'>
-    <a href='../privacy/index.html' class='c-nav__link '>Data &amp; privacy</a>
+    <a href='../../privacy/index.html' class='c-nav__link '>Data &amp; privacy</a>
   </li>
   
   <li class='c-nav__item'>
-    <a href='../Contact/index.html' class='c-nav__link '>Contact</a>
+    <a href='../../Contact/index.html' class='c-nav__link '>Contact</a>
   </li>
   
   <li class='c-nav__item'>
-    <a href='../contribute/index.html' class='c-nav__link '>Contribute →</a>
+    <a href='../../contribute/index.html' class='c-nav__link '>Contribute →</a>
   </li>
   
 
@@ -722,23 +629,7 @@
   </div>
 </footer>  </div>
 
-  <script src='../assets/js/app.min.js@v=1fb385e3fc'></script>
+  <script src='../../assets/js/app.min.js@v=1fb385e3fc'></script>
   
 </body>
 </html>
-
-<style>
-  .widget-tags .tag-count {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-width: 24px;
-    height: 24px;
-    color: #000000;
-    font-size: 12px;
-    font-weight: 700;
-    background-color: aquamarine;
-    border-radius: 50%;
-}
-
-</style>
